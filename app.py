@@ -246,7 +246,7 @@ def main():
         st.session_state.agent_system = ClaudeAutopartsSystem()
     
     # Carrega dados
-    df = pd.read_excel('dados_autoparts.xlsx')  
+    df = pd.read_excel('data/dados_autoparts.xlsx')
     
     with st.sidebar:
         st.header("📊 Dados Gerais")
