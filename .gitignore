@@ -1,0 +1,11 @@
+# .gitignore
+.env
+*.env
+__pycache__/
+*.pyc
+.DS_Store
+*.xlsx  # se não quiser versionar seus arquivos de dados
+*.csv   # se tiver arquivos CSV
+.idea/
+venv/
+.vscode/
